@@ -248,6 +248,8 @@ void dataProviderUnlockCallback (void *info, const void *data, size_t size);
 
 - (void)lock;
 {
+    CVPixelBufferLockBaseAddress(renderTarget, 0);
+    
     if (referenceCountingDisabled)
     {
         return;
@@ -258,6 +260,8 @@ void dataProviderUnlockCallback (void *info, const void *data, size_t size);
 
 - (void)unlock;
 {
+    CVPixelBufferUnlockBaseAddress(renderTarget, 0);
+    
     if (referenceCountingDisabled)
     {
         return;
