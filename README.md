@@ -1,4 +1,5 @@
 # GPUImage #
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tcamin/GPUImage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <div style="float: right"><img src="http://sunsetlakesoftware.com/sites/default/files/GPUImageLogo.png" /></div>
 
